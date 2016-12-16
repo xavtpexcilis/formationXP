@@ -1,10 +1,16 @@
 package fr.excilys.formation.bowliwood;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author user
+ *
+ */
 public class EntryPoint {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 	int nbChoisi = 0;
 	// scanner nb joueur
@@ -24,16 +30,17 @@ public class EntryPoint {
 	}
 	System.out.println("Nombre de joueur choisi : " + nbChoisi);
 
-	//String[] listeJoueur = new String[nbChoisi];
+	// String[] listeJoueur = new String[nbChoisi];
 	for (int i = 0; i < nbChoisi; i++) {
 	    // Sprint 7 : personnalisation...
 	    // int j=i+1;
 	    // System.out.println("Choisir le nom du joueur "+ j +" :");
 	    // listeJoueur[i] = sc.nextLine();
 
-	    //listeJoueur[i] = "Joueur " + (i + 1) + " :";
-	    //System.out.println(listeJoueur[i]);
+	    // listeJoueur[i] = "Joueur " + (i + 1) + " :";
+	    // System.out.println(listeJoueur[i]);
 	}
+	sc.close();
     }
 
 }
